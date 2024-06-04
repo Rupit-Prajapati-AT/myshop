@@ -10702,11 +10702,14 @@ a.text-dark:focus {
   margin-left: 0;
 }
 
-.navbar-nav>li>a,
+.navbar-nav.mr-auto>li>a,
 .navbar-light .navbar-nav .nav-link {
   padding: 20px 10px;
   color: #1C1C1C;
   outline: none;
+}
+.navbar-nav.ml-auto>li>a{
+  padding: 0px;
 }
 
 .navbar-nav>li>a:hover,
