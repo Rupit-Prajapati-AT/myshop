@@ -999,7 +999,6 @@ pre code {
 
 /* footer sec */
 .footer-sec ul {
-  flex-direction: column;
   gap: 8px;
 }
 
