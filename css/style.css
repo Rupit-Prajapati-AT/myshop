@@ -3440,7 +3440,16 @@ input[type="button"].btn-block {
   white-space: nowrap;
 }
 
-.navbar-nav li ul+a::after,
+.navbar-nav .dropdown-toggle {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .dropdown-toggle::after {
+  content: unset;
+}
+
+.navbar-nav .dropdown-toggle>a::after ,
 .dropdown-toggle::after {
   display: inline-block;
   margin-left: 0.255em;
