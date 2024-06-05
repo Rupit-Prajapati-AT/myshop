@@ -3668,12 +3668,17 @@ input[type="button"].btn-block {
 }
 
 .col-lg-3 .navbar-nav li ul li:hover,
-.navbar-nav li ul a:hover,
+.navbar-nav li ul li:hover,
+.navbar-nav li ul li.active,
 .dropdown-item:hover,
 .dropdown-item:focus {
   color: #16181b;
   text-decoration: none;
   background-color: #f8f9fa;
+}
+
+.navbar-nav li ul a:hover {
+  color: #16181b;
 }
 
 .col-lg-3 .navbar-nav li ul a:hover {
@@ -10728,8 +10733,8 @@ a.text-dark:focus {
 }
 
 
-.navbar-nav>li a:hover,
-.navbar-nav>li a.active,
+.navbar-nav>li:hover>a,
+.navbar-nav>li.active>a,
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
   color: #D19C97;
