@@ -10712,8 +10712,8 @@ a.text-dark:focus {
   padding: 0px;
 }
 
-.navbar-nav>li>a:hover,
-.navbar-nav>li>a.active,
+.navbar-nav>li a:hover,
+.navbar-nav>li a.active,
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
   color: #D19C97;
