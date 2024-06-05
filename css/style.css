@@ -10545,6 +10545,19 @@ a.text-dark:focus {
   color: #6F6F6F !important;
 }
 
+.header-top ul {
+  display: flex;
+  gap: 8px;
+}
+
+.header-top ul.social-icon {
+  gap: 16px
+}
+
+.header-top ul li span {
+  color: #1c1c1c;
+}
+
 .text-muted {
   color: #6c757d !important;
 }
@@ -10702,15 +10715,13 @@ a.text-dark:focus {
   margin-left: 0;
 }
 
-.navbar-nav.mr-auto>li>a,
+.navbar-nav>li>a,
 .navbar-light .navbar-nav .nav-link {
   padding: 20px 10px;
   color: #1C1C1C;
   outline: none;
 }
-.navbar-nav.ml-auto>li>a{
-  padding: 0px;
-}
+
 
 .navbar-nav>li a:hover,
 .navbar-nav>li a.active,
