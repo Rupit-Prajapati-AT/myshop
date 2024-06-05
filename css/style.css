@@ -3449,7 +3449,7 @@ input[type="button"].btn-block {
   content: unset;
 }
 
-.navbar-nav .dropdown-toggle>a::after ,
+.navbar-nav .item-has-children>a::after ,
 .dropdown-toggle::after {
   display: inline-block;
   margin-left: 0.255em;
@@ -3696,7 +3696,7 @@ input[type="button"].btn-block {
 
 .col-lg-3 .navbar-nav li ul li:active,
 .col-lg-3 .navbar-nav li ul li.active,
-.navbar-nav li ul li.active,
+.navbar-nav li ul li.curren-menu-item,
 .navbar-nav li ul li:active,
 .dropdown-item.active,
 .dropdown-item:active {
@@ -10743,7 +10743,7 @@ a.text-dark:focus {
 
 
 .navbar-nav>li:hover>a,
-.navbar-nav>li.active>a,
+.navbar-nav>li.curren-menu-item>a,
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
   color: #D19C97;
